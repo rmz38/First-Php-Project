@@ -1,0 +1,149 @@
+#slideshow{
+    width: 10%;
+    padding: 20em;
+}
+#nav_bar_container{
+    float:left;
+    background-color:black;
+    position: fixed;
+    height: 100%;
+    width: 12vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+.title{
+    font-family: verdana;
+    padding-top: 7vh;
+    padding-bottom: 1vh;
+    margin: auto;
+    margin-bottom: 2vh;
+
+}
+#nav_bar{
+    position: fixed;
+    list-style-type: none;
+    float: left;
+    margin: 0;
+    margin-top: 10vh;
+    padding: 0;
+    margin-right: 1vw;
+    height: 100%;
+    min-width: 6%;
+    max-width: 7%;
+    background-color: black;
+    color: white;
+}
+li {
+    font-weight: bold;
+    margin-top:auto;
+    margin-bottom:auto;
+    font-size: 8.5pt;
+    font-family: verdana;
+    padding-top: 7vh;
+    padding-bottom: 7vh;
+
+}
+body {
+    text-align: center;
+    margin:0;
+    padding-right:0;
+}
+.class{
+    text-align: center;
+}
+.centered_text{
+    font-family: verdana;
+    text-align: center;
+    margin:auto;
+}
+#slideshow{
+    margin-right: 0;
+    width: 30vw;
+    padding: 10%;
+
+}
+.slideshow_img{
+    margin: 0;
+    padding: 0;
+    padding-top: 17vh;
+    text-align: center;
+    width: 70vw;
+}
+.current{
+    border-top: double;
+    border-bottom: double;
+}
+#pad{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+#positioner{
+    text-align: right;
+    position: relative;
+    width: 90%;
+    left: 7vw;
+    right: 1vw;
+    font-size: 10pt;
+}
+#message_box{
+    float: left;
+    width: 70%;
+    height: 50vh;
+}
+
+.move_right{
+    width: 70vh;
+    height: 100%;
+}
+.invalid_field{
+    visibility: visible;
+    color: red;
+    margin: 2vh;
+}
+.valid_field{
+    visibility: hidden;
+    margin: 0;
+}
+.container{
+    font-family: verdana;
+    position: absolute;
+    margin-left: 5vw;
+    margin-right: 4vw;
+    width: 80%;
+    text-align: center;
+    word-wrap: break-word;
+    padding-left: 3vw;
+    font-size: 10pt;
+    padding-bottom: 1vh;
+}
+#aligner{
+    text-align:left;
+}
+#submit{
+    margin-top: 10vh;
+}
+#sender_box{
+    padding-bottom: 1vh;
+}
+.pad_box{
+    padding-bottom: 1vh;
+}
+.centered{
+    margin:auto;
+}
+#img{
+    position: absolute;
+    top: 100vh;
+    left: 15vw;
+}
+#left{
+    text-align: left;
+}
